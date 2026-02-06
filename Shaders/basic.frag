@@ -23,19 +23,15 @@ void main() {
     }
 
     if (uUseLighting) {
-        // Ambient - enough to see geometry even in shadow
         float ambientStrength = 0.35;
         vec3 ambient = ambientStrength * uLightColor * baseColor;
 
-        // Diffuse - use abs(dot) on one side for softer shadows
         vec3 norm = normalize(Normal);
         vec3 lightDir = normalize(uLightPos - FragPos);
         float diff = max(dot(norm, lightDir), 0.0);
-        // Add slight wrap lighting so back faces aren't completely dark
         float wrapDiff = max(dot(norm, lightDir) * 0.5 + 0.5, 0.0);
         vec3 diffuse = mix(diff, wrapDiff, 0.3) * uLightColor * baseColor;
 
-        // Specular
         float specularStrength = 0.25;
         vec3 viewDir = normalize(uViewPos - FragPos);
         vec3 reflectDir = reflect(-lightDir, norm);

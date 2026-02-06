@@ -17,7 +17,6 @@ void main() {
         color = uEmissionColor;
     }
 
-    // Add emission effect
     vec3 emission = color * uEmissionStrength;
     FragColor = vec4(color + emission, 1.0);
 }
