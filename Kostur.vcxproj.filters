@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{a1b2c3d4-e5f6-4789-0abc-def012345678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glm">
+      <UniqueIdentifier>{b2c3d4e5-f6a7-4890-1bcd-ef0123456789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{f90185f1-e322-42ea-83c0-b8a1d6f04bdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\glm\glm.hpp">
+      <Filter>Header Files\glm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\basic.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\screen.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\screen.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\overlay.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\overlay.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Sammie.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\FBI.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\agent.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\brawler.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\Claire.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\Youngster_bundle.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\xps_6.fbx.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_oldman_ernest\oldman_ernest.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_robi\robi.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_mitu_girl_model\mitu_girl_model.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_police_3d_model\police_3d_model.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_rosie_free_rigged_3d_model_for_blender\rosie_free_rigged_3d_model_for_blender.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_middle-aged_guy_in_a_suit\middle-aged_guy_in_a_suit.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_dutch_conductor_for_railway_ns_from_the_90s\dutch_conductor_for_railway_ns_from_the_90s.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="..\..\ImageToStl.com_f31e42157dfc4d4c9e5462e50744585e\f31e42157dfc4d4c9e5462e50744585e.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+  </ItemGroup>
+</Project>

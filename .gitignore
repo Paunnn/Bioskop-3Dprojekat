@@ -1,0 +1,27 @@
+# Build artifacts
+x64/
+Debug/
+Release/
+Kostur/x64/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+
+# NuGet packages (restored on build)
+packages/
+
+# Temporary files
+*.py
+script.b64
+nuget.exe
+
+# Claude project files
+.claude/
